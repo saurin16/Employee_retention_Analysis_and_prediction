@@ -16,7 +16,7 @@ This project aims to analyze and predict employee retention using various machin
 - [License](#license)
 
 ## Project Structure
-
+```
 Employee Retention/
 ├── .idea/
 ├── Analysis.ipynb
@@ -25,7 +25,7 @@ Employee Retention/
 ├── hr_employee_churn_data.csv
 ├── readme.md
 ├── v11/
-
+```
 
 
 - `.idea/`: IDE specific files
