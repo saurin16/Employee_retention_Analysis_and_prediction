@@ -129,7 +129,7 @@ The application is thoroughly tested and deployed on AWS EC2 with Nginx as the w
 
 ## Contributors
 
-- [Your Name](https://github.com/saurin16)
+- [SAURIN PATEL](https://github.com/saurin16)
 
 ## License
 
