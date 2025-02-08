@@ -24,18 +24,7 @@ def index_page():
 @app.route('/training', methods=['POST'])
 @cross_origin()
 def training_route_client():
-    """
-    * method: training_route_client
-    * description: method to call training route
-    * return: none
-    *
-    * who             when           version  change (include bug# if apply)
-    * ----------      -----------    -------  ------------------------------
-    * bcheekati       05-MAY-2020    1.0      initial creation
-    *
-    * Parameters
-    *   None
-    """
+   
     try:
         config = Config()
         #get run id
@@ -56,18 +45,7 @@ def training_route_client():
 @app.route('/batchprediction', methods=['POST'])
 @cross_origin()
 def batch_prediction_route_client():
-    """
-    * method: batch_prediction_route_client
-    * description: method to call batch prediction route
-    * return: none
-    *
-    * who             when           version  change (include bug# if apply)
-    * ----------      -----------    -------  ------------------------------
-    * bcheekati       05-MAY-2020    1.0      initial creation
-    *
-    * Parameters
-    *   None
-    """
+    
     try:
         config = Config()
         #get run id

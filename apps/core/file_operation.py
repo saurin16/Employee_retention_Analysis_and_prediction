@@ -4,7 +4,7 @@ import os
 import shutil
 from apps.core.logger import Logger
 
-class FileOperation:
+class FileOperation: 
     
     def __init__(self,run_id,data_path,mode):
         self.run_id = run_id
