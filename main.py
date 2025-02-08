@@ -15,18 +15,7 @@ CORS(app)
 
 @app.route('/', methods=['POST','GET'])
 def index_page():
-    """
-    * method: index_page
-    * description: method to call index html page
-    * return: index.html
-    *
-    * who             when           version  change (include bug# if apply)
-    * ----------      -----------    -------  ------------------------------
-    * bcheekati      05-MAY-2020    1.0      initial creation
-    *
-    * Parameters
-    *   None
-    """
+    
 
     return render_template('index.html')
 
